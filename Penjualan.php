@@ -39,4 +39,9 @@ foreach ($beli as $item) {
     echo "Jumlah Beli : {$item['jumlah']} <br>";
     echo "Total Harga : Rp. " . number_format($item['total'], 0, ',', '.') . " <br><br>";
 }
+
+// Total belanja
+echo "<hr>";
+echo "<h3>Total Belanja</h3>";
+echo "<p>Rp. " . number_format($grandtotal, 0, ',', '.') . "</p>";
 ?>
